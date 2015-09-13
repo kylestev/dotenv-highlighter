@@ -2,7 +2,7 @@
   "dependencies": [],
   "description": "PHP DotEnv syntax highlighter",
   "sublime_text": "*",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "url": "https://github.com/kylestev/dotenv-highlighter",
   "platforms": [
     "windows",
