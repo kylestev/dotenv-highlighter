@@ -5,6 +5,10 @@
 	<key>fileTypes</key>
 	<array>
 		<string>.env</string>
+		<string>.env.example</string>
+		<string>.env.production</string>
+		<string>.env.local</string>
+		<string>.env.testing</string>
 	</array>
 	<key>name</key>
 	<string>PHP DotEnv</string>

@@ -12,8 +12,8 @@
                 {
                     "sublime_text": "*",
                     "platforms": ["windows", "osx", "linux"],
-                    "version": "1.0.4",
-                    "url": "https://github.com/kylestev/dotenv-highlighter/archive/v1.0.4.zip",
+                    "version": "1.0.5",
+                    "url": "https://github.com/kylestev/dotenv-highlighter/archive/v1.0.5.zip",
                     "date": "2015-09-12 13:37:00"
                 }
             ]

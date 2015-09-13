@@ -2,7 +2,7 @@
 ---
 name: PHP DotEnv
 scopeName: source.dotenv
-fileTypes: ['.env']
+fileTypes: ['.env', '.env.example', '.env.production', '.env.local', '.env.testing']
 uuid: 5f468b7c-c214-485a-b9fd-bb3bf3babef4
 
 patterns:
