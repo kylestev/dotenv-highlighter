@@ -1,0 +1,16 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: PHP DotEnv
+scopeName: source.dotenv
+fileTypes: ['.env']
+uuid: 5f468b7c-c214-485a-b9fd-bb3bf3babef4
+
+patterns:
+- name: comment
+  match: ^(#.+)
+- name: entity.name.tag
+  match: ^([a-zA-Z0-9_]+)(?==)
+- name: entity.name.section
+  match: (?<==)(.+)$
+- name: invalid.illegal
+  match: ^(?<!#)([^\n]+)

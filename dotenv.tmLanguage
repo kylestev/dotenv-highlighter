@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>.env</string>
+	</array>
+	<key>name</key>
+	<string>PHP DotEnv</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^(#.+)</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^([a-zA-Z0-9_]+)(?==)</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;==)(.+)$</string>
+			<key>name</key>
+			<string>entity.name.section</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(?&lt;!#)([^\n]+)</string>
+			<key>name</key>
+			<string>invalid.illegal</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.dotenv</string>
+	<key>uuid</key>
+	<string>5f468b7c-c214-485a-b9fd-bb3bf3babef4</string>
+</dict>
+</plist>

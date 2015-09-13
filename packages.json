@@ -1,0 +1,22 @@
+{
+    "schema_version": "2.0",
+    "packages": [
+        {
+            "name": "PHP DotEnv Highlighter",
+            "description": "PHP DotEnv syntax highlighter support for Sublime Text.",
+            "author": "Kyle Stevenson",
+            "homepage": "https://github.com/kylestev/dotenv-highlighter",
+            "details": "https://github.com/kylestev/dotenv-highlighter",
+            "labels": ["php", "laravel", "dotenv", ".env", "language syntax"],
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "platforms": ["windows", "osx", "linux"],
+                    "version": "1.0.0",
+                    "url": "https://github.com/kylestev/dotenv-highlighter/zip/v1.0.0",
+                    "date": "2015-09-12 13:37:00"
+                }
+            ]
+        }
+    ]
+}

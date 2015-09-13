@@ -1,0 +1,12 @@
+{
+  "dependencies": [],
+  "description": "PHP DotEnv syntax highlighter",
+  "sublime_text": "*",
+  "version": "1.0.0",
+  "url": "https://github.com/kylestev/dotenv-highlighter",
+  "platforms": [
+    "windows",
+    "osx",
+    "linux"
+  ]
+}
